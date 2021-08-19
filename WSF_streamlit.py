@@ -170,7 +170,7 @@ def sarimax_model_forecast(prod, order, seasonal_order,seasonal_variables, item)
 
 def plot_forecast(forecast, item):
     plt.figure(figsize = (12, 6))
-    plt.plot(forecast, marker='o', color='r')
+    plt.plot(forecast, marker='o', color='b')
     plt.xticks(rotation = 90)
     plt.title('28 days forecast for item {} using SARIMA Model'.format(item))
     plt.xlabel("days")
