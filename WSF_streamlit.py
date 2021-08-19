@@ -11,6 +11,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 from plotly.subplots import make_subplots
+from matplotlib.ticker import MaxNLocator
 from datetime import datetime
 from statsmodels.tsa.arima_model import ARIMA
 import pmdarima as pm
