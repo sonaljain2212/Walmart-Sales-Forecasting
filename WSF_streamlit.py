@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import time
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 from itertools import cycle, islice
